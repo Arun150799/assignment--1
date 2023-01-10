@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(237, 197, 133);
+}
+.imgbox{
+    background-color: rgb(240, 199, 149);
+    width: 316px;
+    height: 400px;
+
+    position: relative;
+    /* bottom: 489px; */
+    left: 850px;
+    top: -385px;
+}
+.info{
+    width: 436px;
+    height: 400px;
+    position:relative;
+    top: 20px;
+    left: 100px;
+}
+.span{
+    color: white;
+    position: relative;
+    bottom: 27px;
+    left: 30px;
+    font-size: 12px;
+}
+.mail>input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    padding: 13px;
+    
+} 
+.register>button{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    width: 230px;
+    display: inline;
+    font-size: 23px;
+    position: relative;
+    bottom:53px ;
+    left: 317px;
+    padding: 9px;
+    margin-left: 20px;
+
+}
+footer{
+    background-color: black;
+    
+    width: 1529px;
+    height: 260px;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+}
+.left{
+    color: white;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left:170px ;
+    top:45px ;
+}
+
+.right{
+    color: white;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left:770px ;
+    top:45px ;
+}
